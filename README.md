@@ -1,6 +1,8 @@
-# LoLDU: Low-rank Adaptation via Lower-Diag-Upper Decomposition
+# LoLDU: Low-Rank Adaptation via Lower-Diag-Upper Decomposition
 
-LoLDU is a Parameter-Efficient Fine-Tuning (PEFT) method that significantly reduces trainable parameters while maintaining comparable performance to full fine-tuning. This document provides instructions on how to use LoLDU in your projects.
+LoLDU is a cutting-edge Parameter-Efficient Fine-Tuning (PEFT) technique designed to drastically reduce the number of trainable parameters while achieving performance levels comparable to full fine-tuning. This document outlines the steps required to integrate LoLDU into your projects effectively.
+
+For further details, please refer to the paper: https://arxiv.org/pdf/2410.13618
 
 ## Table of Contents
 1. [Installation](#installation)
