@@ -180,3 +180,25 @@ merge_loldu(model)
 5. **Combine with Other Techniques**: LoLDU can be combined with other optimization techniques like quantization for even greater efficiency.
 
 For more detailed information and advanced usage, please refer to the original paper and the source code repository.
+
+---
+
+**Note:**  
+Please be aware that this code may not fully replicate the results presented in the paper due to possible human errors that occurred during the preparation and cleaning of the code before its release. If you experience any challenges in reproducing our findings, do not hesitate to reach out to us. Furthermore, we are committed to conducting sanity-check experiments in the near future.
+
+**Acknowledgment**  
+Our LoLDU implementation was greatly enhanced by the [minLoRA](https://github.com/cccntu/minLoRA)  codebase.
+
+**BibTeX**  
+```bibtex
+@misc{shi2024loldulowrankadaptationlowerdiagupper,
+  title={LoLDU: Low-Rank Adaptation via Lower-Diag-Upper Decomposition for Parameter-Efficient Fine-Tuning}, 
+  author={Yiming Shi and Jiwei Wei and Yujia Wu and Ran Ran and Chengwei Sun and Shiyuan He and Yang Yang},
+  year={2024},
+  eprint={2410.13618},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2410.13618},
+}
+```
+
